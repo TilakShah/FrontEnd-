@@ -13,7 +13,7 @@
 <jsp:include page = "header.jsp" />
 
 
-<form>
+<form action="/loginaction" >
 <center>            <table>
                     <tr>
                         <td>Name</td>
