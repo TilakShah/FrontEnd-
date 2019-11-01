@@ -47,7 +47,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
       //.antMatchers("**/https://test.instamojo.com/**").permitAll()
       //.antMatchers("/**").hasAnyRole("ADMIN", "USER")
       .and().formLogin()
-      .loginPage("/loginpage").loginProcessingUrl("/loginaction").permitAll()
+      .loginPage("/Login").loginProcessingUrl("/loginaction").permitAll()
       .and()
       .logout().logoutUrl("/logout")
       .invalidateHttpSession(true)
