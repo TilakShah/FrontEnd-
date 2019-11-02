@@ -66,6 +66,13 @@ margin:0 auto;
                      <label>Enter pincode</label>
                         <spring:input path="address_Obj.pin_Code" placeholder="Enter pincode" class="form-control"/>
                     </div>
+         
+         
+           <div class="from-group">
+                   
+                     <label>Enter Password</label>
+                        <spring:input path="Password" placeholder="Enter Password" class="form-control"/>
+                    </div>
           
           <div class="from-group">
                         <input type="submit" value="Register" class="btn btn-block btn-primary"/>
