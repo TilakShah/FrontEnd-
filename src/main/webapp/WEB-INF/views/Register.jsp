@@ -71,7 +71,7 @@ margin:0 auto;
            <div class="from-group">
                    
                      <label>Enter Password</label>
-                        <spring:input path="Password" placeholder="Enter Password" class="form-control"/>
+                        <spring:input path="Password" placeholder="Enter Password"  type="password" class="form-control"/>
                     </div>
           
           <div class="from-group">

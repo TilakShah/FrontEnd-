@@ -48,7 +48,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
       //.antMatchers("/**").hasAnyRole("ADMIN", "USER")
       .and().formLogin()
       .defaultSuccessUrl("/")
-      .loginPage("/Login").loginProcessingUrl("/loginaction").permitAll()
+      .loginPage("/login").loginProcessingUrl("/loginaction").permitAll()
       .and()
       .logout().logoutUrl("/logout")
       .invalidateHttpSession(true)
