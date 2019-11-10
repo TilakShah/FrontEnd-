@@ -43,7 +43,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
       .antMatchers("/product/display").permitAll()
       .antMatchers("/faq").permitAll()
       .antMatchers("/ord").permitAll()
-      .antMatchers("/product/add").hasAuthority("ADMIN")
+   //   .antMatchers("/product/add").hasAuthority("ADMIN")
       //.antMatchers("**/https://test.instamojo.com/**").permitAll()
       //.antMatchers("/**").hasAnyRole("ADMIN", "USER")
       .and().formLogin()
